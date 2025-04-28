@@ -1,1 +1,10 @@
-HI
+name: First_Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+  runs-on:
+  steps:
+    -name: Printing Greeting
+     run: echo "Hello World"
+    -name: Print goodbye
+     run: echo "Done-bye!"
